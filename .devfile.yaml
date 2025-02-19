@@ -4,7 +4,8 @@ metadata:
 components:
   - name: builder
     container:
-      image: quay.io/devspaces/udi-rhel8:latest
+#      image: quay.io/devspaces/udi-rhel8:latest
+      image: registry.redhat.io/devspaces/udi-rhel9@sha256:c87671e98e55c7f5a32f1ee5a44138b9aa742acc723316cd2070bb9880eea8a3
       memoryRequest: 256Mi
       memoryLimit: 8Gi
       cpuRequest: 100m
